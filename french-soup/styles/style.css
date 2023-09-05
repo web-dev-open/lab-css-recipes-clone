@@ -7,3 +7,70 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+
+
+
+
+.apple {
+background-image: url(/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-size: 45px;
+}
+
+
+h1{
+  font-size: 20px;
+  margin-top: 25px;
+}
+p {
+  font-size: 15px;
+}
+
+
+.margin {
+ margin: 0 40px
+}
+
+.grandma {
+  margin-top: 40px;
+}
+
+.cooking {
+  margin: 20px;
+  height: 50px;
+}
+.recipe {
+  margin: 20px;
+  height: 40px;
+}
+
+
+.timing {
+  width: 100%;
+  border-bottom: 2px gray solid;
+  display: flex;
+  justify-content: center;
+}
+
+.prep {
+  width: 100%;
+  border-bottom: 2px gray solid;
+  display: flex;
+  justify-content: center;
+}
+
+ul > li {
+  list-style-type: '- ';
+}
+ol > li {
+ word-wrap: break-word;
+}
