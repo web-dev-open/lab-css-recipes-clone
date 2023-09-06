@@ -1,0 +1,91 @@
+/*reseting defaults values to look better*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+
+main{
+    padding:  60px;
+    color: #111110;
+}
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url('../images/apple-pie.jpg');
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: center center;
+height: 80vh;
+margin: 0;
+padding: 0;
+font-size: 30px;
+}
+
+.container h1{
+    color: white;
+}
+
+
+.sectionone p{
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+}
+.sectionone .img-container {
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.sectionone {
+border-bottom: 1px solid gray;
+}
+
+.sectiontwo h1{
+    font-size: 24px;
+}
+
+.sectiontwo #dash {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .sectiontwo #dash li::before {
+    content: " - ";
+  }
+
+  .sectiontwo .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    }
+
+  .sectiontwo {
+    border-bottom: 1px solid gray;
+    }
+
+  .sectionthree h1{
+    font-size: 24px;
+
+  }
+
+  .sectionthree ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul li::before {
+    content: counter(li) ") ";
+    counter-increment: li;
+  }
+  
+
+
