@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 200px;
+    font-size: x-large;
+    padding: 0px;
+    line-height: 40px;
+}
+
+h3{
+    margin-bottom: 20px;
+}
+
+
+#heading {
+    background-image: url(/apple-pie/images/apple-pie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+
+}
+
+#heading p {
+    color: whitesmoke;
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    font-weight: 100;
+    margin: 198px auto;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    border-bottom: 2px solid gray;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+#directions{
+    border-bottom: none;
+}
+
+#intro p {
+    margin-bottom: 20px;
+}
+
+#info-image{
+    text-align: center;
+}
+
+#intro img  {
+    max-width: 30%;
+    margin: 10px auto;
+    text-align: left;
+}
+
+#ingredients img{
+    max-width: 40%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+
+.custom-list {
+    list-style-type: none; 
+    padding-left: 0;      
+  }
+  
+  .custom-list li::before {
+    content: "\2013";     
+    color: black;      
+    margin-right: 5px;    
+    font-size: 1.2em; 
+    padding-right: 5px;    
+  }
+  
+
+  /* Custom numbering for ordered list */
+ol.custom-number-list {
+    list-style-type: none; 
+    counter-reset: custom-counter; 
+  }
+  
+  li::before {
+    content: counter(custom-counter) ') ';
+    counter-increment: custom-counter; 
+}
