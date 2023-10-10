@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 60px;
+    float: inline-end;
+    background-image: url(../images/apple-pie.jpg);
+    background-size: cover;
+    height: 700px;
+    text-align: center;
+    position:relative;
+    background-repeat: no-repeat;
+          
+}
+
+.heading{
+    color:aliceblue;
+    padding: 300px;
+}
