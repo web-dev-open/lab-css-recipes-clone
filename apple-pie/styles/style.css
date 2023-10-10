@@ -1,0 +1,91 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lato:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Rampart+One&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+  }
+  
+body{
+    zoom: 60%;
+}
+h1 {
+    
+    font-size: 95px;
+    color: white;
+    position: absolute; /* Permite posicionar el título sobre la imagen */
+    top: 50%; /* Lo coloca en el centro verticalmente */
+    left: 50%; /* Lo coloca en el centro horizontalmente */
+    transform: translate(-50%, -80%); /* Centra el título exactamente en el centro */
+    padding: 10px 20px; /* Añade espacio alrededor del texto */
+}
+.image-container {
+    position: relative;
+    width: 100%;
+    max-height: 600px; /* Ajusta la altura máxima según tus necesidades */
+    overflow: hidden; /* Oculta el exceso de imagen que se extiende más allá de la altura máxima */
+}
+.banner{
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto;
+    object-fit: cover; /* Mantiene la proporción original de la imagen */
+}
+.container{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    position: absolute;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 33%; /* Toma el 100% de la altura del viewport */
+}
+
+
+.paragraph {
+    width: 50%;
+    text-align: center,justify;/*  Centra el texto horizontalmente */
+    font-size: 35px;
+    margin-top: 10%;
+    margin-bottom: 2%;
+
+}
+.image {
+    max-width: 50%; /* Ajusta el ancho máximo de la imagen */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    margin-bottom: 8px;
+}
+
+hr {
+    border: 2px solid #B4B4B3; /* Cambia el color y el grosor de la línea según tus preferencias */
+    margin: 20px 0; /* Agrega un espacio alrededor de la línea */
+    width: 60%;  
+}
+
+.subtitulo{
+    margin-bottom: 60px;
+    text-align: left;
+    padding-right: 43%;
+    font-size: 35px;
+}
+
+.list { 
+    font-size: 30px;
+    padding-bottom: 40px;
+    margin-bottom: 2%;
+    text-align: left;
+    padding-right: 23%;
+    list-style-type: none;
+}
+.list1 { 
+    width: 50%;
+    font-size: 30px;
+    padding-bottom: 10%;
+    margin-bottom: 50px;
+    text-align: left;
+    padding-right: 5%;
+    list-style-type: none;
+}
+
