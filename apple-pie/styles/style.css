@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.hero-section{
+    background-image: url('../images/apple-pie.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 40em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: white;
+    font-size: 6em;
+    font-weight: 300;
+}
+main{
+    width: 60%;
+    margin: 5em auto;
+    color: rgb(68, 68, 68);
+}
+.recipe-description{
+    font-size: 1.4em;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+}
+.recipe-info{
+    padding-top: 2em;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid grey;
+    margin-bottom: 2em;
+}
+.recipe-info img{
+    height: 4em;
+}
+div.cooking-info img{
+    height: 5.1em;
+}
+h2{
+    font-size: 1.4em;
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+ul, ol{
+    list-style-type: "- ";
+    list-style-position: outside;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+li{
+    padding: 0.1em;
+}
+ol{
+    list-style: none;
+    counter-reset: item;
+    padding-left: 1em;
+}
+ol li::before {
+    content: counter(item) ") ";
+    counter-increment: item;
+}
