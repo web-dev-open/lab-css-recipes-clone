@@ -22,7 +22,7 @@ h1 {
     transform: translate(-50%, -80%); /* Centra el título exactamente en el centro */
     padding: 10px 20px; /* Añade espacio alrededor del texto */
 }
-.image-container {
+#image-container {
     position: relative;
     width: 100%;
     max-height: 600px; /* Ajusta la altura máxima según tus necesidades */
