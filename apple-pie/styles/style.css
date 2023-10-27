@@ -1,0 +1,52 @@
+.image-container {
+  position: relative;
+}
+
+.background-image {
+  position: relative;
+  z-index: -1;
+  height: 700px;
+  width: 1490px;
+}
+
+.title {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  transform: translate(100%, -380%);
+}
+
+.article {
+  margin: 10px 10px;
+  padding: 60px 80px;
+}
+
+.description {
+  font-size: 23px;
+}
+
+.recipe-info-container,
+.cooking-info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom: 4px solid gray;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.ingredients,
+.direction {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.recipe-list, .direction-list {
+  font-size: 23px;
+}
