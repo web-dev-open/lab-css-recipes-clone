@@ -1,0 +1,73 @@
+/* Reset Style */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+} 
+
+
+img {
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 25%; /* Adjust the top position based on the layout */
+    left: 50%; /* Adjust the left position based on the layout */
+    transform: translate(-50%, -50%); /* Center the text both horizontally and vertically */
+    z-index: 1; /* Place the text on top of the image */
+    color: white; /* Set text color */
+    font-size: 48px; /* Set font size */
+    text-align: center; /* Set text alignment */
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background for better readability */
+    padding: 10px; /* Add padding to the text */
+  }
+
+  p {
+    padding: 50px;
+    text-align: justify;
+  }
+
+  .cooking-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+  }
+
+  .info {
+    width: 35%;
+    height: auto;
+  }
+
+  hr{
+    color: #888;
+    background-color: #888;
+    height: 2px;
+    border: none;
+    margin: 50px;
+  }
+
+  .format {
+    padding: 0px 50px;
+  }
+
+  ul {
+    padding: 10px 20px;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+
+  ul li::before {
+    content: "-";
+    margin-right: 10px;
+  }
+  
+  ol {
+    padding: 10px 20px;
+    text-align: justify;
+    margin-left: 10px;
+  }
