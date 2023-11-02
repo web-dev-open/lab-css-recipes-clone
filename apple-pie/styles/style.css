@@ -1,0 +1,41 @@
+*{
+   box-sizing: border-box;
+   padding:0;
+   margin:0;
+   font-family: sans-serif;
+}
+.landingPage{
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    width: 100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.landingPage h1{
+    color:white;
+    font-size: 6rem;
+    font-weight: lighter;
+}
+.info{
+    padding:80px;
+}
+.info img{
+    display: block;
+    margin: 40px auto;
+} 
+.info h1{
+    margin:50px 0;
+}
+.info p{
+    font-size: 1.5rem;
+}
+hr{
+    height:3px;
+    background-color: #8f8c8c;
+}
+ul li{
+    list-style: none;
+    margin:5px 0;
+}
