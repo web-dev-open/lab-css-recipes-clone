@@ -16,6 +16,7 @@
 .landingPage h1{
     color:white;
     font-size: 6rem;
+    font-weight: lighter;
 }
 .info{
     padding:80px;
