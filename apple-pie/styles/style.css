@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: scroll;
+  font-family: "Roboto", sans-serif, "Open Sans", sans-serif;
+}
+
+/* text */
+
+.part-2-ingredients,
+.hero-1-AppliePie,
+.part-1-background,
+.part-3-directions {
+  font-family: "Open Sans";
+}
+
+.part-1-background,
+.part-2-ingredients,
+.part-3-directions {
+margin: auto;
+width: 39%;
+}
+
+
+.hero-1-AppliePie {
+  grid-area: hero-1-AppliePie;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/RootLearn-WebDevelopment/Week-1/Day-3/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+  font-style: light;
+  font-weight: 300;
+  font-size: 80px;
+  line-height: 40px;
+  margin-bottom: 5rem;
+}
+
+.part-1-background {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  width: 39%;
+  margin: auto;
+}
+
+hr{
+  width: 39%;
+  margin: auto;
+}
+.ingredients-heading, .directions{
+  margin: 2rem 0 2rem 0;
+}
+
+.list-dashed{
+  list-style: none;
+}
+.duration-clock-icon{
+  width: 25rem;
+  margin: 1rem 0 1rem 0;
+}
+
+.ingre-img {
+  width: 18rem;
+  margin: 2rem 0 2rem 0;
+}
+
+.part-3-directions{
+  margin-bottom: 4rem;
+}
