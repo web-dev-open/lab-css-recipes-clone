@@ -22,7 +22,7 @@ h1 {
   font-size: 60px;
 }
 .description {
-  width: 100%;
+  /* width: 100%; */
   max-width: 1024px;
   margin: 0px auto;
   padding: 3% 5%;
@@ -31,12 +31,14 @@ h1 {
   font-size: 16px;
   text-align: justify;
 }
-.description div {
+.description div,
+.ingredients div {
   padding: 3.5% 0;
   display: flex;
   justify-content: center;
 }
-#recipe-info {
+#recipe-info,
+#cooking-info {
   width: 100%;
   max-width: 500px;
 }
@@ -44,4 +46,15 @@ h1 {
   .description p {
     font-size: 20px;
   }
+}
+
+.ingredients {
+  padding: 0 5% 3% 5%;
+  /* width: 100%; */
+  max-width: 1024px;
+  margin: 0px auto;
+}
+ul {
+  padding: 3.5% 5%;
+  list-style: none;
 }
