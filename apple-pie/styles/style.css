@@ -1,48 +1,31 @@
-@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Lato);
-
-body {
-  background-color: dimgray;
+#apple-pie {
+  margin-left:0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: auto;
 }
- 
-.pageContainer {
-  width: 750px;
-  margin: 20px auto 0 auto;
-  padding: 20px;
-  background-color: rgb(127, 183, 239);
+#apple-pie img { 
+  max-width: 100%; 
+  height: auto; 
 }
- 
-.imageContainer {
-  float: left;
-  width: 620px;
-  align-self: center;
+.header{
+  position: relative;
+  top: -600px;
+  color: white;
+  margin-left: 45%;
+  font-size: larger;
 }
- 
-.textContainer {
-  float: left;
-  margin-left: 20px;
-  margin-top: 20px;
+.main{
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
-img {
-  width: 100%;
-}
- 
-h1 {
-  font-family: 'Fredericka the Great', cursive;
-  font-size: 64px;
-  color: #8b1c00b4;
-  text-align: center;
-}
- 
-p, li {
-  font-family: 'Lato', sans-serif;
-  font-size: 22px;
-  color: #51473b;
-  align-items: center;
+li::before{
+  content: '-';
 }
 
-.pageContainer:after { 
-  content: " ";
-  display: table;
-  clear: both;
+.smallimgs{
+  align-content: center;
+  margin-left:25%;
+  margin-right: 15%;
 }
