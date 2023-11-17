@@ -1,0 +1,50 @@
+#walltext{
+    position: relative;
+    text-align: center;
+
+}
+
+#walltext h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin-top: 250px;
+    font-size: 50px;
+}
+
+#divpara1{
+    padding: 35px;
+    text-align: justify;
+    font-size: 19px;
+}
+#divbar1{
+    text-align: center;
+    margin-top: -30px;
+}
+
+#list{
+    padding-left: 35px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+#list p{
+    padding-left: 30px;
+}
+
+#divbar2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#para2{
+    padding-left: 35px;
+    border-top: 1px solid black;
+    padding-bottom: 60px;
+}
+
+#para2 p{
+    margin-bottom: -10px;
+    margin-left: 20px;
+}
