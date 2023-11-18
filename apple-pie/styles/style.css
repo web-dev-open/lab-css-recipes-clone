@@ -1,0 +1,31 @@
+#apple-pie {
+    margin-left:0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: auto;
+  }
+  #apple-pie img { 
+    max-width: 100%; 
+    height: auto; 
+  }
+  .header{
+    position: relative;
+    top: -600px;
+    color: white;
+    margin-left: 45%;
+    font-size: larger;
+  }
+  .main{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  li::before{
+    content: '-';
+  }
+  
+  .smallimgs{
+    align-content: center;
+    margin-left:25%;
+    margin-right: 15%;
+  }
