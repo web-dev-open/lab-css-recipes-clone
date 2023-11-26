@@ -1,34 +1,48 @@
-h1, body, html, main ,p{
+h1, h2,body, html, main ,p{
     margin: 0;
 }
-
+  /*Import the font and set the default size*/
 html {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px
 }
-body{
-    font-family: 'Arial', sans-serif;
+body {
+    font-family: crique grotesk, arial,impact, Haettenschweiler, 'Arial Narrow', sans-serif;
     line-height: 1.6;
-    background-color: #f8f8f8;
-    margin: 20px;
-    background-image: "soup.jpg";
-}
-.heading {
-    font-size: 30px;
-    font-weight: bold;
-    color: #000000;
-    margin-bottom: 10px;
+    margin: 420px;
+    margin-left: 420px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
     
 }
   
-.ingredients, .directions {
+h1{
+    font-family:  'Core Sans A', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-image: url(https://static.wixstatic.com/media/eb3e1a3cb8c84457a23f0fb9ae74f096.jpg/v1/fill/w_925,h_795,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/eb3e1a3cb8c84457a23f0fb9ae74f096.jpg);
+    padding: 200px;
+    padding-left: 260px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.Ingredients, .Directions {
     font-size: 24px;
+    font-weight: 300;
     color: #000000;
     margin-top: 20px;
 }
 p {
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 14px;
 }
-  
-  
+.recipe-info{
+    text-align: center;
+    border-bottom: 1px solid #000000;
+}
+.cooking-info{
+    text-align: center;
+    border-bottom: 1px solid black;
+    box-sizing: border-box; 
+}
