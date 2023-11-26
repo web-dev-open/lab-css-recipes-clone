@@ -1,5 +1,5 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1, body, html, main ,p{
   margin: 0;
 }
 /*Import the font and set the default size*/
@@ -7,3 +7,28 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  margin: 20px;
+  background-image: "soup.jpg";
+}
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 10px;
+  
+}
+
+.ingredients, .directions {
+  font-size: 24px;
+  color: #000000;
+  margin-top: 20px;
+}
+p {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
