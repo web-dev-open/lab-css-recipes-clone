@@ -1,4 +1,7 @@
 /*Some necessary adjustments*/
+*{
+  box-sizing: border-box;
+}
 h1, body, html, main {
   margin: 0;
 }
@@ -6,4 +9,52 @@ h1, body, html, main {
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+.banner{
+  background: url('../images/soup.jpg');
+  width: 100%;
+  height: 400px;
+  background-size:cover;
+}
+.banner p{
+  text-align: center;
+  transform:translateY(200px);
+  font-size: 30px;
+  color: white;
+}
+.conatiner{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.conatiner p{
+  line-height: 23px;
+}
+.conatiner img{
+  height: 50px;
+}
+.conatiner hr{
+  padding: 2px 2px;
+  border: none;
+  outline: none;
+  background: #ccc;
+}
+.conatiner .recipi_details {
+  text-align: left;
+}
+.conatiner .recipi_details ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.conatiner .recipi_details ul li:before{
+  content:'\2014';
+  line-height: 25px;
+  
+
+}
+.conatiner .recipi_details li{
+  list-style: none;
+  line-height: 26px;
 }
