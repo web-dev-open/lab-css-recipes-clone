@@ -1,9 +1,49 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1, body, html, main ,p{
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+body {
+  font-family: crique grotesk, arial,impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+  line-height: 1.6;
+  margin: 420px;
+  margin-left: 420px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+  
+}
+
+.heading {
+  font-size: 30px;
+  font-family:  'Core Sans A', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+  background-image: url(https://matcha-tea.com/wp-content/uploads/2016/08/Blendtec-soup-recipes-660x462.jpg);
+  padding: 200px;
+  background-repeat: no-repeat;
+}
+.ingredients, .directions {
+  font-size: 24px;
+  font-weight: 300;
+  color: #000000;
+  margin-top: 20px;
+}
+p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.recipe{
+  text-align: center;
+  border-bottom: 1px solid #000000;
+}
+.cooking{
+  text-align: center;
+  border-bottom: 1px solid black;
+  box-sizing: border-box;
+  
 }
