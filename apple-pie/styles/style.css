@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    outline:none;
+    margin: 0;
+}
+body{
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#herosection{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+#heroimg{
+    object-fit: cover;
+    width:100%;
+    height: 100%;
+}
+.herotitle{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ color: #fff;
+ font-size: 5rem;
+}
+
+#description{
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;  
+    border-bottom: 5px solid #afadad;
+}
+
+.para{
+    font-size: 1.61rem;
+    margin: 0% 10%;
+}
+
+.prepimg{
+    width: 40%;
+}
+
+#ingredients{
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-evenly;
+    border-bottom: 5px solid #afadad;
+}
+
+
+.intext{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: -50%;
+}
+
+.intext h2{
+    font-size: 2rem;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.intext h5{
+    font-size: 1rem;
+    margin-left: 3%;
+    margin-bottom: 5px;
+}
+
+.inimg{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inimg img{
+    width: 40%;
+}
+
+#directions{
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#directions h2{
+    font-size: 2rem;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-left: 10%;
+}
+
+#directions p{
+    font-size: 1.3rem;
+    margin-left: 13%;
+    margin-bottom: 5px;
+    letter-spacing: 0.05cap;
+}
