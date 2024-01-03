@@ -1,0 +1,79 @@
+body {
+  margin:0;
+
+  font:400 130%/1.5 Helvetica, sans-serif; 
+
+  padding-bottom:5em; 
+}
+
+
+.container {
+  width:70%;
+  margin-left:auto;margin-right:auto;
+  text-align: justify; /* Justify the text within the paragraph */
+  line-height: 1.4; /* Adjust the line height to reduce spacing */
+  
+}
+
+section h2 {
+  font-weight:normal; 
+  border-top:3px solid #bbb; padding-top:1em;
+}
+
+h1 {
+  /*
+  Hero heading
+  */
+
+  margin-top:0;margin-bottom:0;
+  font-weight:normal;
+  font-size:300%;
+  
+  background:url("../images/apple-pie.jpg") center no-repeat; background-size:cover;
+  color:white;
+
+  padding-top:250px;padding-bottom:250px;
+  text-align:center;
+}
+
+header p {
+  margin-top:2.5em;
+  color:black;
+  font-family: 'Times New Roman', Times, serif;
+}
+.recipe-list {
+  list-style-type: none; /* Remove default bullets */
+  padding: 0; /* Remove default padding */
+}
+.recipe-list li::before {
+  content: "–"; /* Use an en dash as a bullet */
+  margin-right: 8px; /* Adjust the spacing between the dash and the list item text */
+  display: inline-block;
+  width: 1em; /* Ensure proper spacing */
+}
+
+/*
+ info images
+*/
+header img,
+#ingredients img {
+  display:block; margin-left:auto;margin-right:auto; 
+  margin-top:2em;margin-bottom:2em;
+}
+header img {height:4em;}
+#ingredients img {height:5em;}
+
+/*
+ list styling (BONUS)
+*/
+
+/* #ingredients ul,
+#directions ol {list-style:none; padding-left:0;}
+
+#ingredients li:before {content:"- ";}
+
+#directions ol {counter-reset:steps;}
+#directions li:before {
+  content:counter(steps, decimal) ") ";
+  counter-increment:steps;
+} */
