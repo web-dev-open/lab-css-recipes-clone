@@ -1,0 +1,50 @@
+*{
+    padding : 0px;;
+    margin : 0px,
+    
+}
+
+.image{
+    position:relative;
+    margin-bottom: 50px;
+}
+.img1{
+    width: 100%;
+    height: auto;
+    object-fit:cover;
+}
+.caption {
+    position: absolute;
+    color:aliceblue;
+    bottom: 48%;
+    left: 30%; 
+    font-family: 'Times New Roman', Times, serif;
+}
+.intro{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: center;
+}
+.img2, .img3{
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img2 .i , .img3 .i2{
+    width: 50%;
+}
+hr{
+    border: 1.5px solid #ccc;
+}
+ul{
+    list-style-type: disc;
+}
+.recipe, .directions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ol li{
+    padding: 10px;
+}
