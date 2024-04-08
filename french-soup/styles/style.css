@@ -7,3 +7,123 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  position: relative; /* Add this to position children like .intro absolutely within it */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  color: #fff;
+  animation: slideInFromLeft 1s ease-out;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  background: url(../images/soup.jpg) no-repeat center center/cover;
+}
+
+.intro {
+  position: absolute; /* Position .intro absolutely within .container */
+  bottom: 0; /* Align it at the bottom */
+  width: 100%; /* Ensure it spans the full width of the container */
+  font-size: 1.6rem;
+  padding: 2rem;
+  text-align: justify;
+  background: linear-gradient(to top, rgba(0,0,0,0.7) 25%, transparent); /* Adjust the gradient to your liking */
+  color: #d2c0c0;
+  animation: fadeIn 1s ease-out;
+}
+.recipe {
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: flex-startS;
+  flex-direction: column;
+  padding: 2rem;
+}
+.recipe h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1rem;
+  padding-bottom: 1.3rem;
+  border-bottom: 1px solid #333;
+}
+.recipe p {
+  font-size: 1.5rem;
+  color: #333;
+
+  margin-bottom: 1.6rem;
+  text-align: justify;
+}
+.img {
+  width: 100%;
+  height: 40%;
+  align-self: center;
+  margin: 2rem 0 0 0;
+}
+.divider {
+  width: 100%;
+  background-color: #0a0a0a;
+  border:1px solid #0a0a0a;
+ margin: 0 0 2rem 0;
+  opacity: 0.5;
+}
+.ingredient h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+ul li {
+  list-style-type: none;
+  position: relative;
+  margin-bottom: 1rem;
+  padding-left: 1.5em; /* Adjust based on the size of your custom bullet */
+}
+
+ul li::before {
+  content: '-';
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .recipe {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+  
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
