@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: rgb(248, 240, 228);
+}
+
+.title {
+    background-image: url(apple-pie.jpg);
+    height: 300px;
+    padding: 5%;
+}
+
+div {
+    background-color: whitesmoke;
+    padding: 5%;
+}
+h1 {
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    text-align: center;
+    font-size: 75px;
+    margin-top: 100px;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: light;
+}
+
+p {
+    line-height: 1.5;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img {
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+hr {
+    width: 100%;
+}
+
+.intro {
+    font-size: large;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.ing {
+    text-align: left;
+}
+
+.desc {
+    text-align: center;
+}
