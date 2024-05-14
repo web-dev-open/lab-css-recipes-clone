@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 100vw;
+    height: calc(100vh - 100px);
+    overflow: hidden;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font: 'Calibri';
+    font-size: 124px;
+    color: white;
+    padding: 10px 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.description {
+    max-width: 1024px;
+    margin: 0px auto;
+    padding: 3% 5%;
+}
+
+.description p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.description div,
+.ingredients div {
+    padding: 3.5% 0;
+    display: flex;
+    justify-content: center;
+}
+
+#recipe-info,
+#cooking-info {
+    width: 100%;
+    max-width: 500px;
+}
+
+@media (min-width: 1024px) {
+    .description p {
+        font-size: 20px;
+    }
+}
+
+.ingredients,
+.directions {
+    padding: 0 5% 3% 5%;
+    max-width: 1024px;
+    margin: 0px auto;
+}
+
+ul,
+ol {
+    padding: 3.5% 5%;
+    list-style: none;
+}
+
+ol li {
+    list-style-type: decimal;
+}
