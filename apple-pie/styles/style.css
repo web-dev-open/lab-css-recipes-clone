@@ -1,0 +1,86 @@
+#image-container{
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+  }
+  
+  .df{
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 120px;
+  }
+  
+  
+  #kkl{
+    align-items: center;
+    height: 95px;
+    width: 500px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 547px;
+    margin-right: 10px;
+  }
+  
+  #few{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  
+  #par{
+    width: 60%; 
+    font-size: 28px;
+  }
+  
+  #l1{
+    width: 80%;
+    border-top: 2px solid gray;
+    margin-left: 175px;
+    margin-right: 10px;
+  }
+  
+  #Ingredient-list{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  ul{
+    font-size: 26px;
+    width: 80%;
+    height: auto;
+  }
+  
+  #img-recipe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #pic2{
+    height: 95px;
+    width: 500px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  #p2{
+    margin-bottom: 0;
+  }
+  
+  #l2{
+    border-top: 2px solid gray;
+  }
+  
+  #ins{
+    font-size: 25px;
+  }
+  h5{
+    font-size: 35px;
+  }
