@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.header{
+    text-align:center;
+    background: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header img{
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+.header h1{
+    margin: 10px 0;
+
+}
+.header p{
+    color: #777;
+    font-size: 18px;
+}
+.info{
+    display:flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.instructions img{
+    width: auto;
+    align-self: auto;
+}
+.info img{
+
+}
+.ingredients, .instructions{
+    background: #fff;
+    padding:20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.ingredients h2, .instructions h2{
+    color: #333;
+}
+.ingredients ul{
+    list-style: none;
+    padding:0;
+}
+.ingredients ul li{
+    backgroud: #f9f9f9;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.instructions ol{
+list-style: decimal;
+padding-left: 20px;
+}
+.instructions ol li{
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border:1px solid #ddd;
+}

@@ -1,9 +1,76 @@
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
+  padding:0;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.header{
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+.header img{
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+}
+.header h1{
+  margin 10px 0;
+
+}
+.header p{
+  color : #777;
+  font-size: 18px;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+  background:#fff;
+  padding:10px;
+  border-bottom: 1px solid #ddd;
+}
+.info img, .directions img{
+  width:auto;
+  object-position: center;
+}
+.ingredients, .directions{
+  background: #fff;
+  padding:20px;
+  border-bottom: 1px solid #ddd;
+}
+.ingredients h2, .directions h2{
+  color:#333;
+}
+.ingredients ul{
+  list-style: none;
+  padding:0;
+
+}
+.ingredients ul li{
+  background: #f9f9;
+  margin-bottom: 5px;
+  padding: 10px;
+  border:1px solid #ddd;
+}
+.directions ol {
+  list-style: decimal;
+  padding-left: 20px;
+}
+
+.directions ol li {
+  background: #f9f9;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
 }
