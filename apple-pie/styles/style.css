@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    font-weight: normal;
+}
+
+.ingredients {
+    list-style: none; 
+}
+
