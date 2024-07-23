@@ -1,0 +1,102 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+*{
+  font-size: 1.1em;
+  color: black;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image img{
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  height: auto;
+  width: 100vw;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  /* top: 50%;
+  left: 50%; */
+  /* transform: translate(-50%, -424%); */
+  font-size: 40px; /* Adjust as needed */
+  color: white;
+
+}
+.para{
+  width: 60vw;
+  margin-right: auto;
+  margin-left: auto;
+  /* display: flex; */
+  color: black;
+  padding: 30px 74px;
+  text-align:justify;
+  /* justify-content: flex-start; */
+}
+.image2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+    
+}
+.image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ingredients ul ,li{
+  list-style: none;
+  padding: 0;
+  padding-left: 10px;
+  text-align: left;
+  
+}
+
+.ingredients h3{
+  text-align: left;
+}
+
+.directions h3{
+  text-align: left;
+}
+
+.directions p{
+  text-align:left;
+  padding-left: 10px  ;
+}
+
+.ingredients{
+  width: 60vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+.directions{
+  
+  width: 60vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hr{
+  width: 60vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
