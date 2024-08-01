@@ -1,9 +1,79 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
+
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.main {
+  width: 100vw;
+  height: 70vh;
+  margin: auto;
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 3.5rem;
+}
+
+.details {
+  margin: auto;
+  width: 85%;
+  margin-top: 2rem;
+  font-size: 1.15rem;
+}
+
+.section {
+  padding-top: 1rem;
+  padding-bottom: 1.8rem;
+  border-bottom: 1px solid black;
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe-info-img {
+  width: 450px;
+  height: 70px;
+}
+
+/* ingredients */
+
+.ingredients ul {
+  list-style-position: inside;
+  list-style-type: '- ';
+  line-height: 1.4;
+}
+
+.cooking-info-img {
+  width: 450px;
+  height: 95px;
+}
+
+/* directions */
+.directions {
+  border: none;
+}
+
+ol {
+  list-style-position: inside;
 }
