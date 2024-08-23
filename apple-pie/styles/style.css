@@ -1,0 +1,73 @@
+body{
+    box-sizing: border-box;
+   margin:0px;
+
+   font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 40px;
+  
+}
+
+#cover-pic{
+    width:100%; 
+    /* object-fit: contain; */
+
+    /* margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: "50px";
+    margin-bottom: "50px"; */
+}
+#cover,#ingredients,#directions{
+    margin:0 auto;
+    font-size: 30px;
+    width:65.5%;
+}
+ul li{
+    list-style-type:"- ";
+}
+ol{
+    list-style-type: none; 
+    counter-reset:item;
+}
+ol li{
+    counter-increment: item;
+}
+ol li:before{
+    content:counter(item) ") ";
+}
+
+
+#cover p{
+    text-align: justify;
+}
+
+#ingredients img,#recipe{
+    position:relative;
+    left:25%;
+}
+
+hr{
+    width: 65.5%;
+    border:3px solid grey   ;
+}
+
+#container{
+   position: relative;
+}
+#container2{
+    position:absolute;
+    top:135%;
+    background-color: #fff;
+}
+#title{
+    position:absolute;
+    top:27  .3%;
+    text-align: center;
+    width:100%;
+    color:#fff;
+    font-size: 80px;
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  /* font-style: normal; */
+}

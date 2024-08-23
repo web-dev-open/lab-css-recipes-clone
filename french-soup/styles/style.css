@@ -1,9 +1,83 @@
-/*Some necessary adjustments*/
+/* Some necessary adjustments
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+} */
+
+body{
+  position:relative;
+  top:-3  00px;
+  margin: 0 auto;
+}
+
+#cover{
+  position:relative;
+ 
+}
+
+h1{
+  position:absolute;
+  text-align: center;
+  top:50%;
+  left:25%;
+  font-size: 100px;
+  font-weight: 500;
+  color:#fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+}
+
+#cover img{
+  width: 100%;
+}
+
+#container{
+  margin: 0 auto;
+  width:65%;
+}
+
+#ingredients img,#directions img{
+  position:relative;
+  left:20%;
+}
+ol{
+  list-style-type: none;
+  counter-reset:item;
+}
+
+ol li{
+  counter-increment: item;
+}
+
+ol li:before{
+  content:counter(item)") ";
+}
+
+#container>p{
+  font-size: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+#cover img{
+  padding-bottom: 150px;
+}
+
+img{
+  padding-bottom: 50px;
+}
+
+h2,li{
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 200;
+  line-height: 40px;
+}
+
+h2{
+  font-size: 40px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 300;
 }
