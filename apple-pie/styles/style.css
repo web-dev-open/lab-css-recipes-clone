@@ -1,0 +1,90 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1;
+    background-color: #f4f4f4;
+    color: #555;
+  }
+  
+  header {
+    height: 800px;
+    background-image: url("D:/Palak Jain/web-dev/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg"); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main-heading {
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  }
+  
+  .hero {
+    
+    margin:50px;
+    text-align: center;
+    padding: 20px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+  }
+  .hero-div{
+    width:70%;
+
+  }
+  
+  .hero-para {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    color: #555;
+    text-align: justify;
+  }
+  
+  .hero-img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  .igrdnt-heading, .dir-heading {
+    text-align:left;
+    font-size: 1.5rem;
+    margin:20px 0;
+    color: #333;
+  }
+  
+  .ingrdnt-list {
+    
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .ingrdnt-list li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .ingrdnt-img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  ol.ingrdnt-list {
+    list-style: decimal inside;
+  }
+  
+
+  .line{
+    margin:30px 0;
+  }
