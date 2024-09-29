@@ -1,0 +1,65 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+    margin: 0;
+  }
+  /*Import the font and set the default size*/
+  html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+  
+  p{
+    text-align: center;
+    font-size: x-large;
+    margin: 40px 140px;
+  }
+
+  .image-container{
+    position: relative;
+    display: inline-block;
+  }
+
+  .first-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+  }
+
+
+  .centered-heading {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Shifts the heading to the exact center */
+    color: white; /* Change as needed */
+    text-align: center;
+    font-size: 120px;
+    font-weight: lighter;
+  }
+
+  .recipe-img{
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+
+  }
+
+  .ingredients, .directions{
+    text-align: justify;
+    
+    margin: 60px 140px;
+    font-size: 40px;
+  }
+
+  ul{
+    font-size: 25px;
+    list-style-type: none;
+    color: #3d3d40 ;
+  }
+
+  ol{
+    font-size: 25px;
+    color: #3d3d40 ;
+  }
