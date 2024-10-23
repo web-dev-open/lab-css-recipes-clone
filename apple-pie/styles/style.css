@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.applepie {
+    position: relative;
+    display: block;
+}
+
+.applepie img {
+    width: 100%; /* Make the image fit the full width of the page */
+    height: 500px; /* Fixed height */
+    object-fit: cover; /* Ensures the image doesn't get distorted */
+}
+
+.applepie h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 48px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.recipe-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    font-size: 1.2em;
+    font-weight: normal;
+    color: #333;
+}
+
+.description img{
+    width: 50%;
+    padding-left: 20%;
+}
+.ingredients img{
+    width: 40%;
+    padding-left: 20%;
+}
+
+.ingredients h3, .directions h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.ingredients ul, .directions ol {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.ingredients ul li, .directions ol li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.directions ol {
+    counter-reset: step-counter;
+}
+
+.directions ol li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.directions ol li::before {
+    counter-increment: step-counter;
+    content: counter(step-counter) ".";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+    color: #333;
+}
+
+@media screen and (max-width: 768px) {
+    .recipe-container {
+        padding: 10px;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    .time-info p {
+        font-size: 0.9em;
+    }
+}
