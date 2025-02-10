@@ -1,0 +1,92 @@
+/* Global Settings */
+body {
+    margin: 0;
+    font-family: 'Proxima Nova Soft', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Subtle background for contrast */
+    color: #333;
+}
+
+/* Hero Section */
+h1 {
+    background-image: url('images/apple-pie.jpg'); /* Ensure this path is correct */
+    background-size: cover;
+    background-position: center;
+    height: 85vh; /* Adjust this for the height of the hero section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 4rem;
+    font-weight: 300;
+    margin: 0;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Add depth to the text */
+}
+
+/* Description Section */
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: #555;
+    margin: 30px auto;
+    width: 70%;
+    line-height: 1.8;
+}
+.cooking-info {
+    text-align: center;
+    margin: 20px auto; /* Adds spacing around the section */
+}
+
+.cooking-info img {
+    width: 300px; /* Adjust the size as needed */
+    height: auto; /* Maintains aspect ratio */
+    display: flex; /* Centers the image inside the section */
+    margin: 30px auto; /* Centers the section itself */
+}
+
+hr {
+    border: none; /* Remove default browser styling */
+    border-top: 6px solid #ccc; /* Add a light gray line */
+    margin: 20px 0; /* Add spacing above and below the line */
+    width: 70%; /* Optional: control the width of the line */
+    margin-left: auto; /* Center the line */
+    margin-right: auto; /* Center the line */
+    
+}
+/* Ingredients and Directions Section */
+h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 30px auto ;
+    width: 70%;
+    text-align: left;
+    border-radius: 10px;
+}
+
+ul, ol {
+    margin: 20px auto;
+    width: 70%;
+    list-style-position: inside;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    
+}
+
+/* Buttons and Icons */
+button, .icons {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+/* Additional Styling */
+.container {
+    margin: auto;
+    max-width: 1200px;
+    padding: 20px;
+}
