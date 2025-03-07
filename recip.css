@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 24px;
+}
+
+.recipe-image img {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.recipe-info,
+.instructions {
+  background-color: rgba(255, 255, 255, 0.9);
+  margin: 20px auto;
+  padding: 15px;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+ul,
+ol {
+  text-align: left;
+  display: inline-block;
+}
