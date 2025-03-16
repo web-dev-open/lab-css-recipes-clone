@@ -1,0 +1,78 @@
+/* General Reset */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #90EE90;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Description */
+.description {
+    margin: 20px auto;
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Recipe & Cooking Info Images */
+.recipe-info, .cooking-info {
+    margin: 20px auto;
+}
+
+.recipe-info img, .cooking-info img {
+    width: 300px;
+}
+
+/* Horizontal Line */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #90EE90;
+    margin: 30px auto;
+    width: 80%;
+}
+
+/* Ingredients & Instructions */
+.ingredients, .instructions {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    text-align: left;
+    box-shadow: none;  /* Removed box-shadow */
+}
+
+h2 {
+    color: #8B0000;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
