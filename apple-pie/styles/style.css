@@ -1,0 +1,116 @@
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+.banner-text {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.paragraph1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-family: 'Aptos', sans-serif;
+    font-size: 1.4em;
+    color: darkslategrey;
+    text-emphasis: none;
+    text-align: center;
+    text-align: justify;
+    vertical-align: middle;
+    padding: 0 200px;
+
+}
+
+.paragraph1 img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.horizontal-line {
+    border: 1 solid #ccc;
+    height: 1px;
+    size: 10px;
+    background: #ccc;
+    margin: 20px 210px;
+}
+.header2 {
+    font-family: 'Aptos', sans-serif;
+    font-size: 1em;
+    color: darkslategrey;
+    text-align: start;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0 210px;
+}
+
+.paragraph2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+    margin: 20px;
+    font-family: 'Aptos', sans-serif;
+    font-size: 1em;
+    color: darkslategrey;
+    text-emphasis: none;
+    text-align: start;
+    padding: 0 100px;
+}
+
+.ingredients-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 100px;
+}
+
+.cook-info-img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.header3 {
+    font-family: 'Aptos', sans-serif;
+    font-size: 1em;
+    color: darkslategrey;
+    text-align: start;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0 210px;
+}
+
+.paragraph3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+    margin: 20px;
+    font-family: 'Aptos', sans-serif;
+    font-size: 1em;
+    color: darkslategrey;
+    text-emphasis: none;
+    text-align: start;
+    padding: 0 180px;
+}
