@@ -1,0 +1,65 @@
+p {
+  color: black;
+}
+
+h1 {
+  color: white;
+}
+
+body {
+  font-family: Comic Sans MS;
+  font-size: 20x;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: #2A416A;
+  height: 60px;
+  margin-bottom: 10px;
+  min-width: 725px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.general-container {
+  margin: 0 auto;
+  width: 725px;
+}
+
+.izquierda {
+  background: #EBF5FE;
+  float: left;
+  height: 280px;
+  padding-top: 10px;
+  width: 20%;
+}
+
+.contenido-principal {
+  background: #EBF5FE;
+  float: left;
+  height: 280px;
+  padding-top: 10px;
+  margin: 0 1%;
+  width: 48%;
+}
+
+.derecha {
+  background: #EBF5FE;
+  float: left;
+  height: 280px;
+  padding-top: 10px;
+  width: 30%;
+}
+
+.contenido-secundario {
+  background: #O6AED5;
+}
+
+.pie-pagina {
+  background: #2A416A;
+  color: #fff;
+  clear: both;
+  width: 900px;
+}
