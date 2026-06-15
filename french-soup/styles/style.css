@@ -1,9 +1,82 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+* {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
-/*Import the font and set the default size*/
-html {
+
+body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  color: #333333;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.recipe-hero {
+  background-image: url('../images/soup.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-title {
+  color: #ffffff;
+  font-size: 5rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.recipe-container {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 40px 10px;
+}
+
+.recipe-intro {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #4a4a4a;
+  margin-bottom: 40px;
+  font-style: italic;
+}
+
+.section-heading {
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.ingredients-list, 
+.directions-list {
+  padding-left: 60px;
+  margin-bottom: 40px;
+}
+
+.ingredients-list li, 
+.directions-list li {
+  font-size: 1.8rem;
+  margin-bottom: 12px;
+  color: #555555;
+}
+
+.info-section {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.info-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.section-divider {
+  border: 0;
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: 40px 0;
 }
